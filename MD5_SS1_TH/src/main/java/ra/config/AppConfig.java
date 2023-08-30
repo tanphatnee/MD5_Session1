@@ -19,7 +19,7 @@ import java.io.IOException;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"ra.controller","ra.model"})
+@ComponentScan(basePackages = "ra")
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
     private String pathImage = "C:\\Users\\nvtph\\OneDrive\\Máy tính\\MD5_SS1\\src\\main\\webapp\\WEB-INF\\upload\\";
     // cấu hình appllication Context
